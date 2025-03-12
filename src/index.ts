@@ -19,6 +19,8 @@ app.get('/posts', async (req, res) => {
     }
 });
 
+const a = (5 * 9)
+
 app.post('/posts', async (req, res) => {
     const content = req.body.content;
 
